@@ -1,0 +1,106 @@
+/*
+author: Rod
+theme: food order website admin;
+version: 1.0;
+ */
+
+ * {
+   margin: 0;
+   padding: 0;
+   font-family: 'Fuzzy Bubbles',cursive;
+ }
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+.tbl-full {
+  width: 100%;
+}
+.tbl-30 {
+  width: 30%;
+}
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+table tr td {
+  padding: 1%;
+}
+/* CSS for buttom */
+.btn-primary {
+  background-color: #A1BCC7;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #F59A8E;
+}
+.btn-secondary {
+  background-color: #A8A9AD;
+  padding: 1%;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  background-color: #BFC1C2;
+}
+.btn-danger {
+  background-color: #598E44;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-danger:hover {
+  background-color: #B4CB8F;
+}
+/* CSS for Menu */
+.menu {
+  border-bottom: 1px solid grey;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff6b81;
+}
+.menu ul li a:hover {
+  color: #A1BCC7;
+}
+
+/* CSS for main content */
+.main-content {
+  background-color: #f1f2f6;
+  padding: 3% 0;
+}
+.col-4 {
+  width: 18%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+/* CSS for Footer */
+.footer {
+  background-color: #A1BCC7;
+  color: white;
+}
