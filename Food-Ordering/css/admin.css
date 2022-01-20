@@ -1,13 +1,12 @@
 /*
-author: Rod
-theme: food order website admin;
-version: 1.0;
+author: Team3
+theme: Ordering System - admin;
  */
 
  * {
    margin: 0;
    padding: 0;
-   font-family: 'Fuzzy Bubbles',cursive;
+   font-family: 'Century Gothic',cursive;
  }
 .wrapper {
   padding: 1%;
