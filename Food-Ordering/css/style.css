@@ -1,13 +1,14 @@
 /*
-    Author: Team3
-    Theme: Ordering System;
+    Author: Rod
+    Theme: Restaurant Food Order;
+    version: 1.0;
 */
 
 /* CSS for All */
 *{
     margin: 0 0;
     padding: 0 0;
-    font-family: 'Century Gothic',cursive;
+    font-family: 'Fuzzy Bubbles',cursive;
 }
 .container{
     width: 80%;
@@ -68,9 +69,7 @@ h2{
     margin-bottom: 2%;
 }
 h3{
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-shadow: 2px 2px #000000;
+    font-size: 1.5rem;
 }
 .float-container{
     position: relative;
@@ -108,7 +107,7 @@ fieldset{
 }
 
 
-/* CSS for Food Search Section */
+/* CSS for Food SEarch Section */
 
 .food-search{
     background-image: url(../images/bg.jpg);
