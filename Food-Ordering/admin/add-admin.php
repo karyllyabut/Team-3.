@@ -18,7 +18,7 @@
 
         <table class="tbl-30">
             <tr>
-              <td>FullName:</td>
+              <td>Full Name:</td>
               <td>
                 <input type="text" name="full_name" placeholder="Enter your Name">
               </td>
