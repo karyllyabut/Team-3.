@@ -76,11 +76,36 @@
   {
     //echo "Button Clicked";
     //Get all the values from form to update
-    $id=$_POST['id'];
+    $id = $_POST['id'];
     $full_name = $_POST['full_name'];
     $username = $_POST['username'];
-  }
 
+    //Create a sql query to update admin
+    $sql = "UPDATE tbl_admin SET
+    full_name = '$full_name',
+    username = '$username'
+    WHERE id='$id'
+    ";
+
+    //Excecute the Query
+    $res = mysqli_query($conn, $sql);
+
+    //Check whether the query executed succes or not
+    if ($res==true)
+    {
+      //Query executed and Admin updated
+      $_SESSION['update'] = "<div class='success'>Admin Updated Successfully.</div>";
+      //Redirect to manage admin page
+      header('location:'.SITEURL.'admin/manage-admin.php');
+    }
+    else
+    {
+      //Failed to update admin
+      $_SESSION['update'] = "<div class='error'>Failed to Delete Admin.</div>";
+      //Redirect to manage admin page
+      header('location:'.SITEURL.'admin/manage-admin.php');
+    }
+  }
 ?>
 
 
