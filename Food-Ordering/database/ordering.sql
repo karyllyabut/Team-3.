@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2022 at 02:03 PM
+-- Generation Time: Jan 25, 2022 at 04:48 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -40,9 +40,8 @@ CREATE TABLE `tbl_admin` (
 
 INSERT INTO `tbl_admin` (`id`, `full_name`, `username`, `password`) VALUES
 (1, 'rodelyn lachica', 'Levec', 'db0b959c6adf3b396f1cc9770ab0b949'),
-(2, 'rodelyn lachica', 'chichi', 'f3c2cefc1f3b082a56f52902484ca511'),
-(3, 'danica', 'danics', '34d5263e6eed1ce2960931cbd3475434'),
-(13, 'Anchaii', 'kalachuchi', 'a73f86ae408af70b67141843e7130723');
+(13, 'Anchaii', 'kalachuchi', 'a73f86ae408af70b67141843e7130723'),
+(28, 'JC Cobangbang', 'JC', 'c44a471bd78cc6c2fea32b9fe028d30a');
 
 -- --------------------------------------------------------
 
@@ -131,7 +130,7 @@ ALTER TABLE `tbl_order`
 -- AUTO_INCREMENT for table `tbl_admin`
 --
 ALTER TABLE `tbl_admin`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `tbl_category`
