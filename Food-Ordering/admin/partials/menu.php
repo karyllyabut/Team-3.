@@ -15,7 +15,7 @@
           <li> <a href="manage-category.php">CATEGORY</a></li>
           <li> <a href="manage-food.php">FOOD</a></li>
           <li> <a href="manage-order.php">ORDER</a></li>
-          <li> <a href="logout.php">Logout</a></li>
+          <li> <a href="logout.php">LOGOUT</a></li>
         </ul>
       </div>
     </div>
