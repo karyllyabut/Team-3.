@@ -61,6 +61,8 @@
       {
         //User available and Log in sucess
         $_SESSION['login'] = "<div class='success'>Login Successful.</div>";
+        $_SESSION['user'] = $username;
+        
         //Redirect to homepage dashboard
         header('location:'.SITEURL.'admin/');
       }
