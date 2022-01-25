@@ -17,6 +17,12 @@
                 echo $_SESSION['login'];
                 unset ($_SESSION['login']);
               }
+
+              if (isset($_SESSION['no-login-message']))
+              {
+                echo $_SESSION['no-login-message'];
+                unset($_SESSION['no-login-message']);
+              }
           ?>
           <br><br>
 
@@ -61,8 +67,8 @@
       {
         //User available and Log in sucess
         $_SESSION['login'] = "<div class='success'>Login Successful.</div>";
-        $_SESSION['user'] = $username;
-        
+        $_SESSION['user'] = $username; //to check whether the user is logged in or not and logout will unset it
+
         //Redirect to homepage dashboard
         header('location:'.SITEURL.'admin/');
       }
