@@ -6,7 +6,8 @@
 
     <br /> <br />
 
-    <a href="#" class="btn-primary">Add Category</a>
+    <!-- Button to Admin -->
+    <a href="<?php echo SITEURL; ?>admin/add-category.php" class="btn-primary">Add Category</a>
 
     <br /> <br /> <br />
 
