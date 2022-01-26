@@ -9,7 +9,7 @@
     <?php
         if(isset($_SESSION['add'])) //checking whether the session is set or not
         {
-          echo $_SESSION['add']; // dispplaying session message if set
+          echo $_SESSION['add']; // displaying session message if set
           unset($_SESSION['add']); //remove session message
         }
      ?>
