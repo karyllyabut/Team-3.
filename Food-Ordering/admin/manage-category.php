@@ -5,6 +5,14 @@
     <h1>Manage Category</h1>
 
     <br /> <br />
+    <?php
+            if(isset($_SESSION['add']))
+            {
+                echo $_SESSION['add'];
+                unset($_SESSION['add']);
+            }
+      ?>
+      <br><br>
 
     <!-- Button to Admin -->
     <a href="<?php echo SITEURL; ?>admin/add-category.php" class="btn-primary">Add Category</a>
